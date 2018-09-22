@@ -1,26 +1,24 @@
 .about-page {
     height: 800px;
     background: #AF3D4E;
-	color: #FAFAFA;
+	  color: #FAFAFA;
 }
 
 .about-page {
     padding-top: 2rem;
     min-height: 100vh;
     display: flex;
-      flex: 0 1 auto;
-      flex-direction: column;
     justify-content: center;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content-grid {
+  width: auto;
 }
     h1 {
       padding: 1rem 0;
       font-size: 3rem;
-    }
-  
-    .content-grid {
-      flex: auto;
     }
       
       .about-content {

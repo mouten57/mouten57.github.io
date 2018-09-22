@@ -20,8 +20,7 @@ class AboutPage extends Component {
                         </p>
                         <p>
                         I built this site from scratch.
-                        By scratch, I mean <i>absolutely from scratch</i>
-                            without any UI library/framework
+                        By scratch, I mean <i>absolutely from scratch</i> without any UI library/framework
                         (except React though) and had so much fun along the way.
                         </p>
                         <p>
