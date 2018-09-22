@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../css/Nav.css'
+import './Nav.css'
 import {Nav, NavItem} from 'react-bootstrap';
-import { toElement as scrollToElement } from '../utils/scroll';
+import { toElement as scrollToElement } from '../../utils/scroll';
 
 class Top extends Component {
     constructor(props) {

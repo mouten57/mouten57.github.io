@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './css/App.css';
-import Landing from './Components/Landing';
-import  Top  from './Components/Nav.js';
-import AboutPage from './Components/AboutPage';
-import PortfolioPage from './Components/PortfolioPage';
-import Footer from './Components/Footer'
+import Landing from './Pages/LandingPage/Landing';
+import  Top  from './Components/Nav/Nav.js';
+import AboutPage from './Pages/AboutPage/AboutPage';
+import PortfolioPage from './Pages/PortfolioPage/PortfolioPage';
+import Footer from './Components/Footer/Footer'
 
 class App extends Component {
   render() {

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import '../css/styles.css';
-import '../css/themes/red-white.css';
-import '../css/themes/reset.css';
-import '../css/Landing.css';
+import './styles.css';
+import './themes/red-white.css';
+import './themes/reset.css';
+// import '../css/Landing.css';
 
 class Landing extends Component {
     handleSelect(eventKey) {
