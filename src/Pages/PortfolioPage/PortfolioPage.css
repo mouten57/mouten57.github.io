@@ -1,64 +1,62 @@
-
 .portfolio-page {
-    height: 800px;
-    padding-top: 2rem;
-    min-height: 100vh;
-    display: flex;
-    flex: 0 1 auto;
-    flex-direction: column;
-    justify-content: center;
-    
+  height: 800px;
+  padding-top: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .portfolio-item__title {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .portfolio-item {
-    display: flex;
-    flex-direction: column;
-    margin: 0.5rem 0;
-    border-radius: 2px;
-    transition: box-shadow 0.25s;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
-      0 2px 1px -2px rgba(0, 0, 0, 0.2);
-    width: 12rem;
-    margin: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+  border-radius: 2px;
+  transition: box-shadow 0.25s;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px -2px rgba(0, 0, 0, 0.2);
+  width: 12rem;
+  margin: 1rem 1rem;
 }
 
-.portfolio-item__links > a{
-    padding: 3px;
-    position: sticky;
-    bottom: 0;
+.portfolio-item__links > a {
+  padding: 3px;
+  position: sticky;
+  bottom: 0;
 }
 
 .portfolio-item__icon > i {
-    margin: 3px;
-    padding: 3px;
+  margin: 3px;
+  padding: 3px;
 }
 
 .content-grid {
-    flex: auto;
-  }
+  flex: auto;
+}
 
 .portfolio-page {
-    background: #AF3D4E;
-	color: #FAFAFA;
-    padding-top: 2rem;
-    min-height: 100vh;
-    display: flex;
-      flex: 0 1 auto;
-      flex-direction: column;
-    justify-content: center;
+  background: #af3d4e;
+  color: #fafafa;
+  padding-top: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  justify-content: center;
 }
-    
-h1 {
-    padding: 1rem 0;
-    font-size: 3rem;
-  }
 
-  .portfolio-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+h1 {
+  padding: 1rem 0;
+  font-size: 3rem;
+}
+
+.portfolio-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
