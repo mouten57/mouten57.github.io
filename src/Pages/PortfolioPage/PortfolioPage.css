@@ -1,5 +1,5 @@
 .portfolio-page {
-  height: 800px;
+  height: auto;
   padding-top: 2rem;
   min-height: 100vh;
   display: flex;
@@ -10,18 +10,6 @@
 
 .portfolio-item__title {
   text-decoration: underline;
-}
-
-.portfolio-item {
-  display: flex;
-  flex-direction: column;
-  margin: 0.5rem 0;
-  border-radius: 2px;
-  transition: box-shadow 0.25s;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
-    0 2px 1px -2px rgba(0, 0, 0, 0.2);
-  width: 12rem;
-  margin: 1rem 1rem;
 }
 
 .portfolio-item__links > a {

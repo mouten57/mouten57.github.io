@@ -1,5 +1,6 @@
 import './AboutPage.css';
 import React, { Component } from 'react';
+import { Grid } from 'react-bootstrap';
 
 class AboutPage extends Component {
   render() {

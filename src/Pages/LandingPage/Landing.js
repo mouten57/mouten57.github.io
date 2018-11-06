@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './styles.css';
 import './themes/red-white.css';
 import './themes/reset.css';
+import { Grid } from 'react-bootstrap';
 // import '../css/Landing.css';
 
 class Landing extends Component {
