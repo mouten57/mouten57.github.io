@@ -11,6 +11,62 @@ const portfolioItems = () => {
             <div class="card-image waves-effect waves-block waves-light">
               <img
                 class="activator"
+                src={require('../../images/TexasMathCentral.png')}
+                alt="TMC"
+              />
+            </div>
+
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">
+                <a
+                  href="https://github.com/mouten57/texas-math-central"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github left" />
+                </a>
+                <a
+                  href="https://texas-math-central.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-desktop left" />
+                </a>
+                Texas Math Central
+                <i class="material-icons right">more_vert</i>
+              </span>
+            </div>
+
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">
+                Texas Math Central
+                <i class="material-icons right">close</i>
+              </span>
+              <br />
+              <br />
+              <p>
+                <h4>Timeline</h4>:<br />
+                November 2018 - December 2018
+                <br />
+                <br />
+                <h4>Description</h4>:
+                <p>
+                  Texas Math Central is a website where teachers can collaborate
+                  and share free math resources.
+                </p>
+                <br />➔ An application that allows users to create, collaborate,
+                upload and share resources. <br />➔ Uploads handled with Multer.{' '}
+                <br />➔ Google Drive API
+              </p>
+            </div>
+          </div>
+        </Col>
+
+        <Col xs={12} md={6}>
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="activator"
                 src={require('../../images/Blocipedia.jpg')}
                 alt="Blocipedia"
               />
@@ -122,8 +178,7 @@ const portfolioItems = () => {
             </div>
           </div>
         </Col>
-      </Row>
-      <Row>
+
         <Col xs={12} md={6}>
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
@@ -227,9 +282,8 @@ const portfolioItems = () => {
             </div>
           </div>
         </Col>
-      </Row>
-      <Row>
-        <Col xs={12}>
+
+        <Col xs={12} md={6}>
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <img
