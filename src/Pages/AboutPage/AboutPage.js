@@ -24,14 +24,33 @@ class AboutPage extends Component {
                 what I learn.
               </p>
               <p>
-                I built this site from scratch. By scratch, I mean{' '}
-                <i>absolutely from scratch</i> without any UI library/framework
-                (except React though) and had so much fun along the way.
+                My favorite thing about coding is being able to create something
+                from an idea. When my wife had a baby recently, we needed a
+                baby-poop tracking app (if you're a parent, you know what I'm
+                talking about!), so I made one! I did something similar with my
+                latest Captstone project,{' '}
+                <b>
+                  <a
+                    href="https://texas-math-central.herokuapp.com"
+                    target="_blank"
+                  >
+                    Texas Math Central
+                  </a>
+                </b>
+                . I felt like I really wanted to understand the difference
+                between React and EJS, so I made a v2 using EJS that you can
+                find{' '}
+                <a
+                  href="https://texas-math-central-ejs.herokuapp.com/"
+                  target="_blank"
+                >
+                  <b>here</b>
+                </a>
               </p>
               <p>
-                React, Node.js, Express, Bootstrap, Postgres, and Firebase are
-                what I feel most comfortable with. I am also obsessed with
-                making the web look pretty with SASS/CSS.
+                React, Node.js, EJS, MongoDB, Express, Bootstrap, Postgres, and
+                Firebase are what I feel most comfortable with. But I'm always
+                willing to learn more :)
               </p>
             </div>
           </div>
